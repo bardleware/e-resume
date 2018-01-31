@@ -1,0 +1,24 @@
+@import 'colors';
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color: $BodyText;
+  background-image: url('https://s3-us-west-2.amazonaws.com/bardleware1/shattered-island.gif');
+  background-repeat: repeat;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+  background-color: $Black3;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  min-height: 300px;
+}
+
+@import 'header';
+@import 'nav';
+@import 'about';
+@import 'projects';
+@import 'resume';
